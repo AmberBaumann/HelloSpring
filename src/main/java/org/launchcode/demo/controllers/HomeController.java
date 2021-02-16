@@ -11,10 +11,10 @@ public class HomeController {
     @ResponseBody
     public String startSkills(){
         String html = "<h1>Welcome to My Site!</h1>" +
-                "<a href='/hello/form'>Greetings!</a>" +
-                "<a href= '/hello/goodbye'>Goodbye!</a>" +
-                "<a href='/skills/new'>Save Your Favorite Languages</a>" +
-                "<a href= '/skills'>Available Skills</a>"
+                "<a href='/hello/form'>Greetings!<br></a>" +
+                "<a href= '/goodbye/form'>Goodbye!<br></a>" +
+                "<a href='/skills/new'>Save Your Favorite Languages<br></a>" +
+                "<a href= '/skills'>Available Skills<br></a>"
                 ;
         return html;
     }
